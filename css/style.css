@@ -266,6 +266,10 @@ footer a:hover {
 	transform: scale(1.1);
 }
 
+.card-social__item a {
+	color: #232323;
+}
+
 .card-avatar:hover {
 	transform: scale(1.1);
 }
