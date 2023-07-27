@@ -1,5 +1,8 @@
 @charset "UTF-8";
 
+
+
+
 html {
 	scroll-behavior: smooth;
 	background-color: #ececec;
@@ -120,6 +123,9 @@ footer a:hover {
 	display: flex;
 	justify-content: center;
 }
+
+
+
 
 @media screen and (max-width: 1023px) {
 	#galery img {
@@ -460,3 +466,22 @@ footer a:hover {
 	}
 
 }
+@media (min-height: 320px) and (max-height: 550px) and (max-width: 1023px) {
+	#home {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+		align-items: center;
+		width: 80%;
+	}
+
+	.coucou_toi_pp {
+		width: 20%;
+		margin: 0;
+	}
+
+	.home_dragon {
+		width: 50%;
+		margin: 0;
+	}
+  }

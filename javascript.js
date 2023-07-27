@@ -1,18 +1,3 @@
-// Fonction pour charger le contenu du fichier header.html dans la balise <div>
-function loadHeader() {
-    var xhttp = new XMLHttpRequest();
-    xhttp.onreadystatechange = function () {
-        if (this.readyState === 4 && this.status === 200) {
-            document.getElementById('header-container').innerHTML = this.responseText;
-            initHeaderLinks();
-        }
-    };
-    xhttp.open('GET', 'header.html', true);
-    xhttp.send();
-}
-
-loadHeader();
-
 var container = document.getElementById('container');
 var scrolling = false;
 var scrollAmount = 100;
